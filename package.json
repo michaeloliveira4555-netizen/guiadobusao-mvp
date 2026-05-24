@@ -1,0 +1,15 @@
+{
+  "name": "sistema-busca-passagens",
+  "version": "1.0.0",
+  "description": "Sistema de busca de passagens de ônibus com conexões",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

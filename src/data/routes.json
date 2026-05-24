@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "001",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Santa Maria",
+    "company": "União Santa Cruz",
+    "departureTime": "06:30",
+    "arrivalTime": "09:00",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "002",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Santa Maria",
+    "company": "União Santa Cruz",
+    "departureTime": "10:00",
+    "arrivalTime": "12:30",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "003",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Santa Maria",
+    "company": "União Santa Cruz",
+    "departureTime": "14:00",
+    "arrivalTime": "16:30",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "004",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Santa Maria",
+    "company": "União Santa Cruz",
+    "departureTime": "18:00",
+    "arrivalTime": "20:30",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "010",
+    "origin": "Santa Maria",
+    "destination": "Santiago",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "09:30",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "011",
+    "origin": "Santa Maria",
+    "destination": "Santiago",
+    "company": "Planalto",
+    "departureTime": "11:00",
+    "arrivalTime": "13:30",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "012",
+    "origin": "Santa Maria",
+    "destination": "Santiago",
+    "company": "Planalto",
+    "departureTime": "15:00",
+    "arrivalTime": "17:30",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "013",
+    "origin": "Santa Maria",
+    "destination": "Santiago",
+    "company": "Planalto",
+    "departureTime": "17:30",
+    "arrivalTime": "20:00",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "020",
+    "origin": "Porto Alegre",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "10:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "021",
+    "origin": "Porto Alegre",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "09:00",
+    "arrivalTime": "13:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "022",
+    "origin": "Porto Alegre",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "12:00",
+    "arrivalTime": "16:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "023",
+    "origin": "Porto Alegre",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "17:00",
+    "arrivalTime": "21:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "024",
+    "origin": "Porto Alegre",
+    "destination": "Santa Maria",
+    "company": "Ouro e Prata",
+    "departureTime": "07:30",
+    "arrivalTime": "12:00",
+    "price": 130,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "025",
+    "origin": "Porto Alegre",
+    "destination": "Santa Maria",
+    "company": "Ouro e Prata",
+    "departureTime": "14:00",
+    "arrivalTime": "18:30",
+    "price": 130,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "030",
+    "origin": "Santa Maria",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "10:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "031",
+    "origin": "Santa Maria",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "10:00",
+    "arrivalTime": "14:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "032",
+    "origin": "Santa Maria",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "18:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "033",
+    "origin": "Santa Maria",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "18:00",
+    "arrivalTime": "22:30",
+    "price": 150,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "040",
+    "origin": "Santa Maria",
+    "destination": "São Borja",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "12:00",
+    "price": 134,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "041",
+    "origin": "Santa Maria",
+    "destination": "São Borja",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "19:00",
+    "price": 134,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "050",
+    "origin": "Santa Maria",
+    "destination": "Uruguaiana",
+    "company": "Planalto",
+    "departureTime": "06:30",
+    "arrivalTime": "13:10",
+    "price": 197,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "051",
+    "origin": "Santa Maria",
+    "destination": "Uruguaiana",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "20:40",
+    "price": 197,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "060",
+    "origin": "Porto Alegre",
+    "destination": "Cachoeira do Sul",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "10:15",
+    "price": 87,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "061",
+    "origin": "Porto Alegre",
+    "destination": "Cachoeira do Sul",
+    "company": "Planalto",
+    "departureTime": "12:00",
+    "arrivalTime": "15:15",
+    "price": 87,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "062",
+    "origin": "Porto Alegre",
+    "destination": "Cachoeira do Sul",
+    "company": "Planalto",
+    "departureTime": "17:00",
+    "arrivalTime": "20:15",
+    "price": 87,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "070",
+    "origin": "Cachoeira do Sul",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "08:45",
+    "price": 58,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "071",
+    "origin": "Cachoeira do Sul",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "11:00",
+    "arrivalTime": "12:45",
+    "price": 58,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "072",
+    "origin": "Cachoeira do Sul",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "16:00",
+    "arrivalTime": "17:45",
+    "price": 58,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "080",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Porto Alegre",
+    "company": "União Santa Cruz",
+    "departureTime": "06:00",
+    "arrivalTime": "08:30",
+    "price": 55,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "081",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Porto Alegre",
+    "company": "União Santa Cruz",
+    "departureTime": "09:00",
+    "arrivalTime": "11:30",
+    "price": 55,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "082",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Porto Alegre",
+    "company": "União Santa Cruz",
+    "departureTime": "14:00",
+    "arrivalTime": "16:30",
+    "price": 55,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "083",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Porto Alegre",
+    "company": "União Santa Cruz",
+    "departureTime": "18:00",
+    "arrivalTime": "20:30",
+    "price": 55,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "084",
+    "origin": "Porto Alegre",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "07:00",
+    "arrivalTime": "09:30",
+    "price": 55,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "085",
+    "origin": "Porto Alegre",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "12:00",
+    "arrivalTime": "14:30",
+    "price": 55,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "086",
+    "origin": "Porto Alegre",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "17:00",
+    "arrivalTime": "19:30",
+    "price": 55,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "090",
+    "origin": "Porto Alegre",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "06:30",
+    "arrivalTime": "11:20",
+    "price": 144,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "091",
+    "origin": "Porto Alegre",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "12:00",
+    "arrivalTime": "16:50",
+    "price": 144,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "092",
+    "origin": "Porto Alegre",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "18:00",
+    "arrivalTime": "22:50",
+    "price": 144,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "093",
+    "origin": "Passo Fundo",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "10:50",
+    "price": 144,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "094",
+    "origin": "Passo Fundo",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "13:00",
+    "arrivalTime": "17:50",
+    "price": 144,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "100",
+    "origin": "Porto Alegre",
+    "destination": "Erechim",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "13:00",
+    "price": 160,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "101",
+    "origin": "Porto Alegre",
+    "destination": "Erechim",
+    "company": "Planalto",
+    "departureTime": "17:00",
+    "arrivalTime": "23:00",
+    "price": 160,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "102",
+    "origin": "Erechim",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "12:00",
+    "price": 160,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "110",
+    "origin": "Lajeado",
+    "destination": "Santa Cruz do Sul",
+    "company": "Expresso Azul",
+    "departureTime": "07:00",
+    "arrivalTime": "08:15",
+    "price": 28,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "111",
+    "origin": "Lajeado",
+    "destination": "Santa Cruz do Sul",
+    "company": "Expresso Azul",
+    "departureTime": "11:00",
+    "arrivalTime": "12:15",
+    "price": 28,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "112",
+    "origin": "Lajeado",
+    "destination": "Santa Cruz do Sul",
+    "company": "Expresso Azul",
+    "departureTime": "15:00",
+    "arrivalTime": "16:15",
+    "price": 28,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "113",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Lajeado",
+    "company": "Expresso Azul",
+    "departureTime": "08:30",
+    "arrivalTime": "09:45",
+    "price": 28,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "114",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Lajeado",
+    "company": "Expresso Azul",
+    "departureTime": "13:00",
+    "arrivalTime": "14:15",
+    "price": 28,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "115",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Lajeado",
+    "company": "Expresso Azul",
+    "departureTime": "17:00",
+    "arrivalTime": "18:15",
+    "price": 28,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "120",
+    "origin": "Lajeado",
+    "destination": "Venâncio Aires",
+    "company": "Expresso Azul",
+    "departureTime": "07:30",
+    "arrivalTime": "08:00",
+    "price": 14,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "121",
+    "origin": "Lajeado",
+    "destination": "Venâncio Aires",
+    "company": "Expresso Azul",
+    "departureTime": "12:00",
+    "arrivalTime": "12:30",
+    "price": 14,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "122",
+    "origin": "Lajeado",
+    "destination": "Venâncio Aires",
+    "company": "Expresso Azul",
+    "departureTime": "17:00",
+    "arrivalTime": "17:30",
+    "price": 14,
+    "companySlug": "expresso-azul"
+  },
+  {
+    "id": "130",
+    "origin": "Santo Ângelo",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "06:30",
+    "arrivalTime": "07:30",
+    "price": 35,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "131",
+    "origin": "Santo Ângelo",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "12:00",
+    "arrivalTime": "13:00",
+    "price": 35,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "132",
+    "origin": "Santo Ângelo",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "17:00",
+    "arrivalTime": "18:00",
+    "price": 35,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "140",
+    "origin": "Ijuí",
+    "destination": "Cruz Alta",
+    "company": "Ouro e Prata",
+    "departureTime": "08:00",
+    "arrivalTime": "09:00",
+    "price": 30,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "141",
+    "origin": "Ijuí",
+    "destination": "Cruz Alta",
+    "company": "Ouro e Prata",
+    "departureTime": "13:30",
+    "arrivalTime": "14:30",
+    "price": 30,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "142",
+    "origin": "Ijuí",
+    "destination": "Cruz Alta",
+    "company": "Ouro e Prata",
+    "departureTime": "18:30",
+    "arrivalTime": "19:30",
+    "price": 30,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "150",
+    "origin": "Cruz Alta",
+    "destination": "Santa Maria",
+    "company": "Ouro e Prata",
+    "departureTime": "07:30",
+    "arrivalTime": "09:30",
+    "price": 55,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "151",
+    "origin": "Cruz Alta",
+    "destination": "Santa Maria",
+    "company": "Ouro e Prata",
+    "departureTime": "13:00",
+    "arrivalTime": "15:00",
+    "price": 55,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "152",
+    "origin": "Cruz Alta",
+    "destination": "Santa Maria",
+    "company": "Ouro e Prata",
+    "departureTime": "17:00",
+    "arrivalTime": "19:00",
+    "price": 55,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "160",
+    "origin": "Caxias do Sul",
+    "destination": "Passo Fundo",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "10:30",
+    "price": 80,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "161",
+    "origin": "Caxias do Sul",
+    "destination": "Passo Fundo",
+    "company": "Ouro e Prata",
+    "departureTime": "13:00",
+    "arrivalTime": "16:30",
+    "price": 80,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "162",
+    "origin": "Passo Fundo",
+    "destination": "Caxias do Sul",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "10:30",
+    "price": 80,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "163",
+    "origin": "Passo Fundo",
+    "destination": "Caxias do Sul",
+    "company": "Ouro e Prata",
+    "departureTime": "14:00",
+    "arrivalTime": "17:30",
+    "price": 80,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "170",
+    "origin": "Passo Fundo",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "08:00",
+    "arrivalTime": "10:00",
+    "price": 50,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "171",
+    "origin": "Passo Fundo",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "price": 50,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "172",
+    "origin": "Ijuí",
+    "destination": "Passo Fundo",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "09:00",
+    "price": 50,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "173",
+    "origin": "Ijuí",
+    "destination": "Passo Fundo",
+    "company": "Ouro e Prata",
+    "departureTime": "15:00",
+    "arrivalTime": "17:00",
+    "price": 50,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "180",
+    "origin": "Porto Alegre",
+    "destination": "Caxias do Sul",
+    "company": "Caxiense",
+    "departureTime": "06:30",
+    "arrivalTime": "09:00",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "181",
+    "origin": "Porto Alegre",
+    "destination": "Caxias do Sul",
+    "company": "Caxiense",
+    "departureTime": "09:30",
+    "arrivalTime": "12:00",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "182",
+    "origin": "Porto Alegre",
+    "destination": "Caxias do Sul",
+    "company": "Caxiense",
+    "departureTime": "13:00",
+    "arrivalTime": "15:30",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "183",
+    "origin": "Porto Alegre",
+    "destination": "Caxias do Sul",
+    "company": "Caxiense",
+    "departureTime": "17:00",
+    "arrivalTime": "19:30",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "184",
+    "origin": "Caxias do Sul",
+    "destination": "Porto Alegre",
+    "company": "Caxiense",
+    "departureTime": "06:00",
+    "arrivalTime": "08:30",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "185",
+    "origin": "Caxias do Sul",
+    "destination": "Porto Alegre",
+    "company": "Caxiense",
+    "departureTime": "10:00",
+    "arrivalTime": "12:30",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "186",
+    "origin": "Caxias do Sul",
+    "destination": "Porto Alegre",
+    "company": "Caxiense",
+    "departureTime": "14:00",
+    "arrivalTime": "16:30",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "187",
+    "origin": "Caxias do Sul",
+    "destination": "Porto Alegre",
+    "company": "Caxiense",
+    "departureTime": "18:00",
+    "arrivalTime": "20:30",
+    "price": 63,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "190",
+    "origin": "Porto Alegre",
+    "destination": "Gramado",
+    "company": "Citral",
+    "departureTime": "07:00",
+    "arrivalTime": "09:30",
+    "price": 60,
+    "companySlug": "citral"
+  },
+  {
+    "id": "191",
+    "origin": "Porto Alegre",
+    "destination": "Gramado",
+    "company": "Citral",
+    "departureTime": "10:30",
+    "arrivalTime": "13:00",
+    "price": 60,
+    "companySlug": "citral"
+  },
+  {
+    "id": "192",
+    "origin": "Porto Alegre",
+    "destination": "Gramado",
+    "company": "Citral",
+    "departureTime": "14:00",
+    "arrivalTime": "16:30",
+    "price": 60,
+    "companySlug": "citral"
+  },
+  {
+    "id": "193",
+    "origin": "Porto Alegre",
+    "destination": "Gramado",
+    "company": "Citral",
+    "departureTime": "17:30",
+    "arrivalTime": "20:00",
+    "price": 60,
+    "companySlug": "citral"
+  },
+  {
+    "id": "194",
+    "origin": "Gramado",
+    "destination": "Porto Alegre",
+    "company": "Citral",
+    "departureTime": "07:00",
+    "arrivalTime": "09:30",
+    "price": 60,
+    "companySlug": "citral"
+  },
+  {
+    "id": "195",
+    "origin": "Gramado",
+    "destination": "Porto Alegre",
+    "company": "Citral",
+    "departureTime": "13:00",
+    "arrivalTime": "15:30",
+    "price": 60,
+    "companySlug": "citral"
+  },
+  {
+    "id": "196",
+    "origin": "Gramado",
+    "destination": "Porto Alegre",
+    "company": "Citral",
+    "departureTime": "17:00",
+    "arrivalTime": "19:30",
+    "price": 60,
+    "companySlug": "citral"
+  },
+  {
+    "id": "200",
+    "origin": "Porto Alegre",
+    "destination": "Pelotas",
+    "company": "Embaixador",
+    "departureTime": "06:30",
+    "arrivalTime": "10:00",
+    "price": 95,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "201",
+    "origin": "Porto Alegre",
+    "destination": "Pelotas",
+    "company": "Embaixador",
+    "departureTime": "10:00",
+    "arrivalTime": "13:30",
+    "price": 95,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "202",
+    "origin": "Porto Alegre",
+    "destination": "Pelotas",
+    "company": "Embaixador",
+    "departureTime": "14:00",
+    "arrivalTime": "17:30",
+    "price": 95,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "203",
+    "origin": "Porto Alegre",
+    "destination": "Pelotas",
+    "company": "Embaixador",
+    "departureTime": "18:00",
+    "arrivalTime": "21:30",
+    "price": 95,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "204",
+    "origin": "Pelotas",
+    "destination": "Porto Alegre",
+    "company": "Embaixador",
+    "departureTime": "06:00",
+    "arrivalTime": "09:30",
+    "price": 95,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "205",
+    "origin": "Pelotas",
+    "destination": "Porto Alegre",
+    "company": "Embaixador",
+    "departureTime": "12:00",
+    "arrivalTime": "15:30",
+    "price": 95,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "206",
+    "origin": "Pelotas",
+    "destination": "Porto Alegre",
+    "company": "Embaixador",
+    "departureTime": "17:00",
+    "arrivalTime": "20:30",
+    "price": 95,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "210",
+    "origin": "Porto Alegre",
+    "destination": "Rio Grande",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "11:30",
+    "price": 160,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "211",
+    "origin": "Porto Alegre",
+    "destination": "Rio Grande",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "18:30",
+    "price": 160,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "212",
+    "origin": "Rio Grande",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "10:30",
+    "price": 160,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "213",
+    "origin": "Rio Grande",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "15:00",
+    "arrivalTime": "19:30",
+    "price": 160,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "220",
+    "origin": "Pelotas",
+    "destination": "Rio Grande",
+    "company": "Embaixador",
+    "departureTime": "07:00",
+    "arrivalTime": "08:00",
+    "price": 22,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "221",
+    "origin": "Pelotas",
+    "destination": "Rio Grande",
+    "company": "Embaixador",
+    "departureTime": "12:00",
+    "arrivalTime": "13:00",
+    "price": 22,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "222",
+    "origin": "Pelotas",
+    "destination": "Rio Grande",
+    "company": "Embaixador",
+    "departureTime": "17:00",
+    "arrivalTime": "18:00",
+    "price": 22,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "223",
+    "origin": "Rio Grande",
+    "destination": "Pelotas",
+    "company": "Embaixador",
+    "departureTime": "08:00",
+    "arrivalTime": "09:00",
+    "price": 22,
+    "companySlug": "embaixador"
+  },
+  {
+    "id": "230",
+    "origin": "Porto Alegre",
+    "destination": "Bagé",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "13:00",
+    "price": 160,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "231",
+    "origin": "Porto Alegre",
+    "destination": "Bagé",
+    "company": "Ouro e Prata",
+    "departureTime": "17:00",
+    "arrivalTime": "23:00",
+    "price": 160,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "232",
+    "origin": "Bagé",
+    "destination": "Porto Alegre",
+    "company": "Ouro e Prata",
+    "departureTime": "06:00",
+    "arrivalTime": "12:00",
+    "price": 160,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "240",
+    "origin": "Porto Alegre",
+    "destination": "Santana do Livramento",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "14:40",
+    "price": 250,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "241",
+    "origin": "Porto Alegre",
+    "destination": "Santana do Livramento",
+    "company": "Ouro e Prata",
+    "departureTime": "18:00",
+    "arrivalTime": "01:40",
+    "price": 250,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "242",
+    "origin": "Santana do Livramento",
+    "destination": "Porto Alegre",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "14:40",
+    "price": 250,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "250",
+    "origin": "Porto Alegre",
+    "destination": "Uruguaiana",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "16:00",
+    "price": 220,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "251",
+    "origin": "Porto Alegre",
+    "destination": "Uruguaiana",
+    "company": "Ouro e Prata",
+    "departureTime": "18:00",
+    "arrivalTime": "03:00",
+    "price": 220,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "252",
+    "origin": "Uruguaiana",
+    "destination": "Porto Alegre",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "16:00",
+    "price": 220,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "260",
+    "origin": "Porto Alegre",
+    "destination": "Torres",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "10:20",
+    "price": 75,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "261",
+    "origin": "Porto Alegre",
+    "destination": "Torres",
+    "company": "Planalto",
+    "departureTime": "13:00",
+    "arrivalTime": "16:20",
+    "price": 75,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "262",
+    "origin": "Torres",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "10:20",
+    "price": 75,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "263",
+    "origin": "Torres",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "15:00",
+    "arrivalTime": "18:20",
+    "price": 75,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "270",
+    "origin": "Porto Alegre",
+    "destination": "Tramandaí",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "09:00",
+    "price": 54,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "271",
+    "origin": "Porto Alegre",
+    "destination": "Tramandaí",
+    "company": "Planalto",
+    "departureTime": "12:00",
+    "arrivalTime": "14:00",
+    "price": 54,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "272",
+    "origin": "Porto Alegre",
+    "destination": "Tramandaí",
+    "company": "Planalto",
+    "departureTime": "17:00",
+    "arrivalTime": "19:00",
+    "price": 54,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "273",
+    "origin": "Tramandaí",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "06:30",
+    "arrivalTime": "08:30",
+    "price": 54,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "274",
+    "origin": "Tramandaí",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "price": 54,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "280",
+    "origin": "Passo Fundo",
+    "destination": "Erechim",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "09:00",
+    "price": 45,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "281",
+    "origin": "Passo Fundo",
+    "destination": "Erechim",
+    "company": "Planalto",
+    "departureTime": "13:00",
+    "arrivalTime": "15:00",
+    "price": 45,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "282",
+    "origin": "Passo Fundo",
+    "destination": "Erechim",
+    "company": "Planalto",
+    "departureTime": "18:00",
+    "arrivalTime": "20:00",
+    "price": 45,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "283",
+    "origin": "Erechim",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "06:30",
+    "arrivalTime": "08:30",
+    "price": 45,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "284",
+    "origin": "Erechim",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "price": 45,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "290",
+    "origin": "Santa Maria",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "06:30",
+    "arrivalTime": "09:00",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "291",
+    "origin": "Santa Maria",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "10:00",
+    "arrivalTime": "12:30",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "292",
+    "origin": "Santa Maria",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "14:30",
+    "arrivalTime": "17:00",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "293",
+    "origin": "Santa Maria",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "18:00",
+    "arrivalTime": "20:30",
+    "price": 69.6,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "300",
+    "origin": "Santiago",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "08:30",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "301",
+    "origin": "Santiago",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "10:00",
+    "arrivalTime": "12:30",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "302",
+    "origin": "Santiago",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "16:30",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "303",
+    "origin": "Santiago",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "18:00",
+    "arrivalTime": "20:30",
+    "price": 73.2,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "310",
+    "origin": "Passo Fundo",
+    "destination": "Carazinho",
+    "company": "Planalto",
+    "departureTime": "07:30",
+    "arrivalTime": "08:30",
+    "price": 25,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "311",
+    "origin": "Passo Fundo",
+    "destination": "Carazinho",
+    "company": "Planalto",
+    "departureTime": "13:00",
+    "arrivalTime": "14:00",
+    "price": 25,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "312",
+    "origin": "Carazinho",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "08:00",
+    "arrivalTime": "09:00",
+    "price": 25,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "313",
+    "origin": "Carazinho",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "15:00",
+    "price": 25,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "320",
+    "origin": "São Borja",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "11:00",
+    "price": 134,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "321",
+    "origin": "São Borja",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "13:00",
+    "arrivalTime": "18:00",
+    "price": 134,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "330",
+    "origin": "Uruguaiana",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "12:40",
+    "price": 197,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "331",
+    "origin": "Uruguaiana",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "20:40",
+    "price": 197,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "340",
+    "origin": "Cachoeira do Sul",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "09:15",
+    "price": 87,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "341",
+    "origin": "Cachoeira do Sul",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "12:00",
+    "arrivalTime": "15:15",
+    "price": 87,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "342",
+    "origin": "Cachoeira do Sul",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "17:00",
+    "arrivalTime": "20:15",
+    "price": 87,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "350",
+    "origin": "Santa Maria",
+    "destination": "Cachoeira do Sul",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "08:45",
+    "price": 58,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "351",
+    "origin": "Santa Maria",
+    "destination": "Cachoeira do Sul",
+    "company": "Planalto",
+    "departureTime": "12:00",
+    "arrivalTime": "13:45",
+    "price": 58,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "352",
+    "origin": "Santa Maria",
+    "destination": "Cachoeira do Sul",
+    "company": "Planalto",
+    "departureTime": "17:00",
+    "arrivalTime": "18:45",
+    "price": 58,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "360",
+    "origin": "Pelotas",
+    "destination": "Jaguarão",
+    "company": "Frederes",
+    "departureTime": "07:00",
+    "arrivalTime": "09:30",
+    "price": 48,
+    "companySlug": "frederes"
+  },
+  {
+    "id": "361",
+    "origin": "Pelotas",
+    "destination": "Jaguarão",
+    "company": "Frederes",
+    "departureTime": "14:00",
+    "arrivalTime": "16:30",
+    "price": 48,
+    "companySlug": "frederes"
+  },
+  {
+    "id": "362",
+    "origin": "Jaguarão",
+    "destination": "Pelotas",
+    "company": "Frederes",
+    "departureTime": "07:00",
+    "arrivalTime": "09:30",
+    "price": 48,
+    "companySlug": "frederes"
+  },
+  {
+    "id": "363",
+    "origin": "Jaguarão",
+    "destination": "Pelotas",
+    "company": "Frederes",
+    "departureTime": "14:00",
+    "arrivalTime": "16:30",
+    "price": 48,
+    "companySlug": "frederes"
+  },
+  {
+    "id": "370",
+    "origin": "Pelotas",
+    "destination": "Camaquã",
+    "company": "Frederes",
+    "departureTime": "07:30",
+    "arrivalTime": "09:30",
+    "price": 40,
+    "companySlug": "frederes"
+  },
+  {
+    "id": "371",
+    "origin": "Pelotas",
+    "destination": "Camaquã",
+    "company": "Frederes",
+    "departureTime": "15:00",
+    "arrivalTime": "17:00",
+    "price": 40,
+    "companySlug": "frederes"
+  },
+  {
+    "id": "372",
+    "origin": "Camaquã",
+    "destination": "Pelotas",
+    "company": "Frederes",
+    "departureTime": "07:00",
+    "arrivalTime": "09:00",
+    "price": 40,
+    "companySlug": "frederes"
+  },
+  {
+    "id": "380",
+    "origin": "Caxias do Sul",
+    "destination": "Bento Gonçalves",
+    "company": "Caxiense",
+    "departureTime": "07:00",
+    "arrivalTime": "07:45",
+    "price": 18,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "381",
+    "origin": "Caxias do Sul",
+    "destination": "Bento Gonçalves",
+    "company": "Caxiense",
+    "departureTime": "12:00",
+    "arrivalTime": "12:45",
+    "price": 18,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "382",
+    "origin": "Caxias do Sul",
+    "destination": "Bento Gonçalves",
+    "company": "Caxiense",
+    "departureTime": "17:00",
+    "arrivalTime": "17:45",
+    "price": 18,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "383",
+    "origin": "Bento Gonçalves",
+    "destination": "Caxias do Sul",
+    "company": "Caxiense",
+    "departureTime": "07:30",
+    "arrivalTime": "08:15",
+    "price": 18,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "384",
+    "origin": "Bento Gonçalves",
+    "destination": "Caxias do Sul",
+    "company": "Caxiense",
+    "departureTime": "13:00",
+    "arrivalTime": "13:45",
+    "price": 18,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "385",
+    "origin": "Bento Gonçalves",
+    "destination": "Caxias do Sul",
+    "company": "Caxiense",
+    "departureTime": "18:00",
+    "arrivalTime": "18:45",
+    "price": 18,
+    "companySlug": "caxiense"
+  },
+  {
+    "id": "390",
+    "origin": "Porto Alegre",
+    "destination": "Lajeado",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "09:00",
+    "price": 48,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "391",
+    "origin": "Porto Alegre",
+    "destination": "Lajeado",
+    "company": "Planalto",
+    "departureTime": "12:00",
+    "arrivalTime": "14:00",
+    "price": 48,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "392",
+    "origin": "Porto Alegre",
+    "destination": "Lajeado",
+    "company": "Planalto",
+    "departureTime": "17:00",
+    "arrivalTime": "19:00",
+    "price": 48,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "393",
+    "origin": "Lajeado",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "06:30",
+    "arrivalTime": "08:30",
+    "price": 48,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "394",
+    "origin": "Lajeado",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "13:00",
+    "arrivalTime": "15:00",
+    "price": 48,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "395",
+    "origin": "Lajeado",
+    "destination": "Porto Alegre",
+    "company": "Planalto",
+    "departureTime": "17:30",
+    "arrivalTime": "19:30",
+    "price": 48,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "400",
+    "origin": "Ijuí",
+    "destination": "Santo Ângelo",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "08:00",
+    "price": 35,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "401",
+    "origin": "Ijuí",
+    "destination": "Santo Ângelo",
+    "company": "Ouro e Prata",
+    "departureTime": "13:00",
+    "arrivalTime": "14:00",
+    "price": 35,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "402",
+    "origin": "Ijuí",
+    "destination": "Santo Ângelo",
+    "company": "Ouro e Prata",
+    "departureTime": "18:00",
+    "arrivalTime": "19:00",
+    "price": 35,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "410",
+    "origin": "Santa Maria",
+    "destination": "Cruz Alta",
+    "company": "Ouro e Prata",
+    "departureTime": "07:00",
+    "arrivalTime": "09:00",
+    "price": 55,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "411",
+    "origin": "Santa Maria",
+    "destination": "Cruz Alta",
+    "company": "Ouro e Prata",
+    "departureTime": "13:00",
+    "arrivalTime": "15:00",
+    "price": 55,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "412",
+    "origin": "Santa Maria",
+    "destination": "Cruz Alta",
+    "company": "Ouro e Prata",
+    "departureTime": "17:00",
+    "arrivalTime": "19:00",
+    "price": 55,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "420",
+    "origin": "Cruz Alta",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "07:30",
+    "arrivalTime": "08:30",
+    "price": 30,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "421",
+    "origin": "Cruz Alta",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "12:00",
+    "arrivalTime": "13:00",
+    "price": 30,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "422",
+    "origin": "Cruz Alta",
+    "destination": "Ijuí",
+    "company": "Ouro e Prata",
+    "departureTime": "16:00",
+    "arrivalTime": "17:00",
+    "price": 30,
+    "companySlug": "ouro-e-prata"
+  },
+  {
+    "id": "430",
+    "origin": "Passo Fundo",
+    "destination": "Soledade",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "08:30",
+    "price": 35,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "431",
+    "origin": "Passo Fundo",
+    "destination": "Soledade",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "15:30",
+    "price": 35,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "432",
+    "origin": "Soledade",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "08:30",
+    "price": 35,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "433",
+    "origin": "Soledade",
+    "destination": "Passo Fundo",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "15:30",
+    "price": 35,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "440",
+    "origin": "Soledade",
+    "destination": "Lajeado",
+    "company": "Planalto",
+    "departureTime": "08:00",
+    "arrivalTime": "10:00",
+    "price": 40,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "441",
+    "origin": "Soledade",
+    "destination": "Lajeado",
+    "company": "Planalto",
+    "departureTime": "15:00",
+    "arrivalTime": "17:00",
+    "price": 40,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "442",
+    "origin": "Lajeado",
+    "destination": "Soledade",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "09:00",
+    "price": 40,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "443",
+    "origin": "Lajeado",
+    "destination": "Soledade",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "price": 40,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "450",
+    "origin": "Alegrete",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "06:00",
+    "arrivalTime": "10:00",
+    "price": 110,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "451",
+    "origin": "Alegrete",
+    "destination": "Santa Maria",
+    "company": "Planalto",
+    "departureTime": "14:00",
+    "arrivalTime": "18:00",
+    "price": 110,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "452",
+    "origin": "Santa Maria",
+    "destination": "Alegrete",
+    "company": "Planalto",
+    "departureTime": "07:00",
+    "arrivalTime": "11:00",
+    "price": 110,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "453",
+    "origin": "Santa Maria",
+    "destination": "Alegrete",
+    "company": "Planalto",
+    "departureTime": "15:00",
+    "arrivalTime": "19:00",
+    "price": 110,
+    "companySlug": "planalto"
+  },
+  {
+    "id": "454",
+    "origin": "Porto Alegre",
+    "destination": "Florianópolis",
+    "company": "Santo Anjo",
+    "departureTime": "08:30",
+    "arrivalTime": "15:10",
+    "price": 110,
+    "companySlug": "santo-anjo"
+  },
+  {
+    "id": "455",
+    "origin": "Porto Alegre",
+    "destination": "Florianópolis",
+    "company": "Catarinense",
+    "departureTime": "13:30",
+    "arrivalTime": "19:30",
+    "price": 120,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "456",
+    "origin": "Porto Alegre",
+    "destination": "Florianópolis",
+    "company": "Catarinense",
+    "departureTime": "23:59",
+    "arrivalTime": "06:00",
+    "price": 150,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "457",
+    "origin": "Porto Alegre",
+    "destination": "Balneário Camboriú",
+    "company": "Catarinense",
+    "departureTime": "08:45",
+    "arrivalTime": "16:25",
+    "price": 120,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "458",
+    "origin": "Porto Alegre",
+    "destination": "Balneário Camboriú",
+    "company": "Catarinense",
+    "departureTime": "23:30",
+    "arrivalTime": "07:10",
+    "price": 160,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "459",
+    "origin": "Porto Alegre",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "09:00",
+    "arrivalTime": "19:30",
+    "price": 180,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "460",
+    "origin": "Porto Alegre",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "19:30",
+    "arrivalTime": "06:00",
+    "price": 220,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "461",
+    "origin": "Caxias do Sul",
+    "destination": "Florianópolis",
+    "company": "Reunidas",
+    "departureTime": "12:30",
+    "arrivalTime": "20:50",
+    "price": 180,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "462",
+    "origin": "Caxias do Sul",
+    "destination": "Florianópolis",
+    "company": "Reunidas",
+    "departureTime": "21:00",
+    "arrivalTime": "05:20",
+    "price": 190,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "463",
+    "origin": "Caxias do Sul",
+    "destination": "Balneário Camboriú",
+    "company": "Reunidas",
+    "departureTime": "12:30",
+    "arrivalTime": "22:30",
+    "price": 220,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "464",
+    "origin": "Caxias do Sul",
+    "destination": "Joinville",
+    "company": "Reunidas",
+    "departureTime": "12:30",
+    "arrivalTime": "23:30",
+    "price": 240,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "465",
+    "origin": "Passo Fundo",
+    "destination": "Florianópolis",
+    "company": "Reunidas",
+    "departureTime": "21:10",
+    "arrivalTime": "05:30",
+    "price": 230,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "466",
+    "origin": "Passo Fundo",
+    "destination": "Balneário Camboriú",
+    "company": "Reunidas",
+    "departureTime": "21:10",
+    "arrivalTime": "07:10",
+    "price": 210,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "467",
+    "origin": "Passo Fundo",
+    "destination": "Joinville",
+    "company": "Reunidas",
+    "departureTime": "21:10",
+    "arrivalTime": "08:30",
+    "price": 271,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "468",
+    "origin": "Florianópolis",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "09:15",
+    "arrivalTime": "12:50",
+    "price": 80,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "469",
+    "origin": "Florianópolis",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "13:15",
+    "arrivalTime": "16:50",
+    "price": 80,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "470",
+    "origin": "Florianópolis",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "19:15",
+    "arrivalTime": "22:50",
+    "price": 85,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "471",
+    "origin": "Lages",
+    "destination": "Florianópolis",
+    "company": "Reunidas",
+    "departureTime": "13:00",
+    "arrivalTime": "17:20",
+    "price": 110,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "472",
+    "origin": "Lages",
+    "destination": "Florianópolis",
+    "company": "Reunidas",
+    "departureTime": "18:30",
+    "arrivalTime": "22:50",
+    "price": 102,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "473",
+    "origin": "Chapecó",
+    "destination": "Florianópolis",
+    "company": "Reunidas",
+    "departureTime": "07:30",
+    "arrivalTime": "18:30",
+    "price": 210,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "474",
+    "origin": "Chapecó",
+    "destination": "Florianópolis",
+    "company": "Reunidas",
+    "departureTime": "19:15",
+    "arrivalTime": "06:15",
+    "price": 250,
+    "companySlug": "reunidas"
+  },
+  {
+    "id": "475",
+    "origin": "Criciúma",
+    "destination": "Florianópolis",
+    "company": "Santo Anjo",
+    "departureTime": "12:10",
+    "arrivalTime": "15:10",
+    "price": 90,
+    "companySlug": "santo-anjo"
+  },
+  {
+    "id": "476",
+    "origin": "Criciúma",
+    "destination": "Florianópolis",
+    "company": "Santo Anjo",
+    "departureTime": "18:50",
+    "arrivalTime": "21:50",
+    "price": 90,
+    "companySlug": "santo-anjo"
+  },
+  {
+    "id": "477",
+    "origin": "Tubarão",
+    "destination": "Florianópolis",
+    "company": "Santo Anjo",
+    "departureTime": "08:30",
+    "arrivalTime": "10:30",
+    "price": 68,
+    "companySlug": "santo-anjo"
+  },
+  {
+    "id": "478",
+    "origin": "Tubarão",
+    "destination": "Florianópolis",
+    "company": "Santo Anjo",
+    "departureTime": "16:00",
+    "arrivalTime": "18:00",
+    "price": 68,
+    "companySlug": "santo-anjo"
+  },
+  {
+    "id": "479",
+    "origin": "Balneário Camboriú",
+    "destination": "Florianópolis",
+    "company": "Catarinense",
+    "departureTime": "08:30",
+    "arrivalTime": "10:30",
+    "price": 54,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "480",
+    "origin": "Balneário Camboriú",
+    "destination": "Florianópolis",
+    "company": "Catarinense",
+    "departureTime": "18:00",
+    "arrivalTime": "20:00",
+    "price": 54,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "481",
+    "origin": "Balneário Camboriú",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "09:05",
+    "arrivalTime": "11:00",
+    "price": 58,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "482",
+    "origin": "Balneário Camboriú",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "15:00",
+    "arrivalTime": "16:55",
+    "price": 58,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "483",
+    "origin": "Florianópolis",
+    "destination": "Curitiba",
+    "company": "Catarinense",
+    "departureTime": "07:30",
+    "arrivalTime": "13:00",
+    "price": 75,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "484",
+    "origin": "Florianópolis",
+    "destination": "Curitiba",
+    "company": "Catarinense",
+    "departureTime": "13:15",
+    "arrivalTime": "18:45",
+    "price": 75,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "485",
+    "origin": "Florianópolis",
+    "destination": "Curitiba",
+    "company": "Penha",
+    "departureTime": "09:00",
+    "arrivalTime": "14:30",
+    "price": 80,
+    "companySlug": "penha"
+  },
+  {
+    "id": "486",
+    "origin": "Florianópolis",
+    "destination": "Curitiba",
+    "company": "Eucatur",
+    "departureTime": "08:00",
+    "arrivalTime": "13:45",
+    "price": 65,
+    "companySlug": "eucatur"
+  },
+  {
+    "id": "487",
+    "origin": "Curitiba",
+    "destination": "Florianópolis",
+    "company": "Catarinense",
+    "departureTime": "08:00",
+    "arrivalTime": "13:30",
+    "price": 75,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "488",
+    "origin": "Curitiba",
+    "destination": "Florianópolis",
+    "company": "Catarinense",
+    "departureTime": "14:00",
+    "arrivalTime": "19:30",
+    "price": 75,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "489",
+    "origin": "Curitiba",
+    "destination": "Florianópolis",
+    "company": "Penha",
+    "departureTime": "10:00",
+    "arrivalTime": "15:30",
+    "price": 80,
+    "companySlug": "penha"
+  },
+  {
+    "id": "490",
+    "origin": "Joinville",
+    "destination": "Curitiba",
+    "company": "Catarinense",
+    "departureTime": "08:30",
+    "arrivalTime": "10:45",
+    "price": 45,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "491",
+    "origin": "Joinville",
+    "destination": "Curitiba",
+    "company": "Catarinense",
+    "departureTime": "14:30",
+    "arrivalTime": "16:45",
+    "price": 45,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "492",
+    "origin": "Joinville",
+    "destination": "Curitiba",
+    "company": "Expresso Nordeste",
+    "departureTime": "10:00",
+    "arrivalTime": "12:15",
+    "price": 48,
+    "companySlug": "nordeste"
+  },
+  {
+    "id": "493",
+    "origin": "Joinville",
+    "destination": "Curitiba",
+    "company": "Brasil Sul",
+    "departureTime": "19:40",
+    "arrivalTime": "22:00",
+    "price": 55,
+    "companySlug": "brasil-sul"
+  },
+  {
+    "id": "494",
+    "origin": "Curitiba",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "09:00",
+    "arrivalTime": "11:15",
+    "price": 45,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "495",
+    "origin": "Curitiba",
+    "destination": "Joinville",
+    "company": "Catarinense",
+    "departureTime": "15:00",
+    "arrivalTime": "17:15",
+    "price": 45,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "496",
+    "origin": "Curitiba",
+    "destination": "Joinville",
+    "company": "Expresso Nordeste",
+    "departureTime": "11:30",
+    "arrivalTime": "13:45",
+    "price": 48,
+    "companySlug": "nordeste"
+  },
+  {
+    "id": "497",
+    "origin": "Porto Alegre",
+    "destination": "Curitiba",
+    "company": "Penha",
+    "departureTime": "08:30",
+    "arrivalTime": "21:00",
+    "price": 180,
+    "companySlug": "penha"
+  },
+  {
+    "id": "498",
+    "origin": "Porto Alegre",
+    "destination": "Curitiba",
+    "company": "Brasil Sul",
+    "departureTime": "07:00",
+    "arrivalTime": "19:30",
+    "price": 230,
+    "companySlug": "brasil-sul"
+  },
+  {
+    "id": "499",
+    "origin": "Porto Alegre",
+    "destination": "Curitiba",
+    "company": "Catarinense",
+    "departureTime": "08:00",
+    "arrivalTime": "20:15",
+    "price": 250,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "500",
+    "origin": "Curitiba",
+    "destination": "Porto Alegre",
+    "company": "Penha",
+    "departureTime": "08:00",
+    "arrivalTime": "20:30",
+    "price": 180,
+    "companySlug": "penha"
+  },
+  {
+    "id": "501",
+    "origin": "Curitiba",
+    "destination": "Porto Alegre",
+    "company": "Catarinense",
+    "departureTime": "07:30",
+    "arrivalTime": "19:45",
+    "price": 250,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "502",
+    "origin": "Curitiba",
+    "destination": "Londrina",
+    "company": "Expresso Nordeste",
+    "departureTime": "08:30",
+    "arrivalTime": "14:30",
+    "price": 180,
+    "companySlug": "nordeste"
+  },
+  {
+    "id": "503",
+    "origin": "Curitiba",
+    "destination": "Londrina",
+    "company": "Expresso Nordeste",
+    "departureTime": "13:00",
+    "arrivalTime": "19:00",
+    "price": 180,
+    "companySlug": "nordeste"
+  },
+  {
+    "id": "504",
+    "origin": "Londrina",
+    "destination": "Curitiba",
+    "company": "Expresso Nordeste",
+    "departureTime": "08:30",
+    "arrivalTime": "14:30",
+    "price": 180,
+    "companySlug": "nordeste"
+  },
+  {
+    "id": "505",
+    "origin": "Londrina",
+    "destination": "Curitiba",
+    "company": "Expresso Nordeste",
+    "departureTime": "13:00",
+    "arrivalTime": "19:00",
+    "price": 180,
+    "companySlug": "nordeste"
+  },
+  {
+    "id": "506",
+    "origin": "Curitiba",
+    "destination": "Maringá",
+    "company": "Brasil Sul",
+    "departureTime": "08:15",
+    "arrivalTime": "14:30",
+    "price": 120,
+    "companySlug": "brasil-sul"
+  },
+  {
+    "id": "507",
+    "origin": "Curitiba",
+    "destination": "Maringá",
+    "company": "Brasil Sul",
+    "departureTime": "13:30",
+    "arrivalTime": "19:45",
+    "price": 120,
+    "companySlug": "brasil-sul"
+  },
+  {
+    "id": "508",
+    "origin": "Maringá",
+    "destination": "Curitiba",
+    "company": "Brasil Sul",
+    "departureTime": "08:00",
+    "arrivalTime": "14:15",
+    "price": 120,
+    "companySlug": "brasil-sul"
+  },
+  {
+    "id": "509",
+    "origin": "Maringá",
+    "destination": "Curitiba",
+    "company": "Brasil Sul",
+    "departureTime": "13:00",
+    "arrivalTime": "19:15",
+    "price": 120,
+    "companySlug": "brasil-sul"
+  },
+  {
+    "id": "510",
+    "origin": "Curitiba",
+    "destination": "Cascavel",
+    "company": "Eucatur",
+    "departureTime": "08:00",
+    "arrivalTime": "16:30",
+    "price": 230,
+    "companySlug": "eucatur"
+  },
+  {
+    "id": "511",
+    "origin": "Curitiba",
+    "destination": "Cascavel",
+    "company": "Eucatur",
+    "departureTime": "12:45",
+    "arrivalTime": "21:15",
+    "price": 230,
+    "companySlug": "eucatur"
+  },
+  {
+    "id": "512",
+    "origin": "Cascavel",
+    "destination": "Curitiba",
+    "company": "Eucatur",
+    "departureTime": "08:00",
+    "arrivalTime": "16:30",
+    "price": 230,
+    "companySlug": "eucatur"
+  },
+  {
+    "id": "513",
+    "origin": "Curitiba",
+    "destination": "Foz do Iguaçu",
+    "company": "Eucatur",
+    "departureTime": "08:00",
+    "arrivalTime": "18:30",
+    "price": 250,
+    "companySlug": "eucatur"
+  },
+  {
+    "id": "514",
+    "origin": "Curitiba",
+    "destination": "Foz do Iguaçu",
+    "company": "Eucatur",
+    "departureTime": "10:00",
+    "arrivalTime": "20:30",
+    "price": 250,
+    "companySlug": "eucatur"
+  },
+  {
+    "id": "515",
+    "origin": "Foz do Iguaçu",
+    "destination": "Curitiba",
+    "company": "Eucatur",
+    "departureTime": "08:00",
+    "arrivalTime": "18:30",
+    "price": 250,
+    "companySlug": "eucatur"
+  },
+  {
+    "id": "516",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Curitiba",
+    "company": "União Santa Cruz",
+    "departureTime": "20:15",
+    "arrivalTime": "12:25",
+    "price": 220,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "517",
+    "origin": "Santa Cruz do Sul",
+    "destination": "Curitiba",
+    "company": "Catarinense",
+    "departureTime": "20:30",
+    "arrivalTime": "12:55",
+    "price": 230,
+    "companySlug": "catarinense"
+  },
+  {
+    "id": "518",
+    "origin": "Curitiba",
+    "destination": "Santa Cruz do Sul",
+    "company": "União Santa Cruz",
+    "departureTime": "20:15",
+    "arrivalTime": "12:25",
+    "price": 220,
+    "companySlug": "uniao-santa-cruz"
+  },
+  {
+    "id": "519",
+    "origin": "Curitiba",
+    "destination": "Santa Cruz do Sul",
+    "company": "Catarinense",
+    "departureTime": "20:30",
+    "arrivalTime": "12:55",
+    "price": 230,
+    "companySlug": "catarinense"
+  }
+]
