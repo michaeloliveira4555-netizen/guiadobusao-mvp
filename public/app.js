@@ -338,7 +338,8 @@ function renderCard(itin, index) {
   }
 
   // Seção de Ações de Compra
-  const selectedDate = document.getElementById('date').value || new Date().toISOString().split('T')[0]
+  const dateElement = document.getElementById('date-input')
+  const selectedDate = dateElement && dateElement.value ? dateElement.value : new Date().toISOString().split('T')[0]
   
   let buyActionsHTML = ''
   if (itin.type === 'direct') {
