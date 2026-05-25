@@ -338,9 +338,15 @@ function renderCard(itin, index) {
   }
 
   // Seção de Ações de Compra
+  const selectedDate = document.getElementById('date').value || new Date().toISOString().split('T')[0]
+  
   let buyActionsHTML = ''
   if (itin.type === 'direct') {
-    const buyUrl = segments[0].buyUrl || '#'
+    const originEnc = encodeURIComponent(segments[0].origin)
+    const destEnc = encodeURIComponent(segments[0].destination)
+    const compEnc = encodeURIComponent(segments[0].company)
+    const buyUrl = `/redirect.html?origin=${originEnc}&dest=${destEnc}&date=${selectedDate}&company=${compEnc}`
+    
     buyActionsHTML = `
       <div class="card-buy-actions">
         <a href="${buyUrl}" target="_blank" rel="noopener noreferrer" class="buy-btn buy-btn-direct">
@@ -351,7 +357,11 @@ function renderCard(itin, index) {
   } else {
     let segmentButtonsHTML = ''
     segments.forEach((seg, i) => {
-      const buyUrl = seg.buyUrl || '#'
+      const originEnc = encodeURIComponent(seg.origin)
+      const destEnc = encodeURIComponent(seg.destination)
+      const compEnc = encodeURIComponent(seg.company)
+      const buyUrl = `/redirect.html?origin=${originEnc}&dest=${destEnc}&date=${selectedDate}&company=${compEnc}`
+      
       segmentButtonsHTML += `
         <a href="${buyUrl}" target="_blank" rel="noopener noreferrer" class="buy-btn-segment">
           <span>Trecho ${i + 1} (${seg.company}): ${seg.origin} ➜ ${seg.destination}</span>
