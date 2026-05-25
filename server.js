@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/api/cities', searchController.getCities)
 app.get('/api/search', searchController.searchRoutes)
 app.get('/api/buy-link', searchController.getBuyLink)
+app.get('/sitemap.xml', searchController.getSitemap)
 
 // Rota SEO para links dinâmicos
 app.get('/rota/:origem/:destino', (req, res) => {

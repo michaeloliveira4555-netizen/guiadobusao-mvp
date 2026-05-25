@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename)
 const routesDataPath = path.join(__dirname, '../data/routes.json')
 
 const MIN_CONNECTION_MINUTES = 30
-const MAX_CONNECTION_MINUTES = 240
+const MAX_CONNECTION_MINUTES = 720 // Aumentado para 12 horas para permitir layovers noturnos
 
 function timeToMinutes(timeStr) {
   const [hours, minutes] = timeStr.split(':').map(Number)
@@ -120,48 +120,52 @@ class RouteModel {
 
     const fromOrigin = routesByOrigin[originLower] || []
 
-    // === 1. Busca Direta (Sem conexões) ===
+    const MAX_STOPS = 4 // Permite até 4 conexões (5 trechos)
+    const queue = []
+
+    // 1. Inicializa a fila com rotas diretas saindo da origem
     fromOrigin.forEach(route => {
-      if (route.destination.toLowerCase() === destLower) {
-        itineraries.push(buildItinerary([route]))
+      queue.push({
+        segments: [route],
+        currentCity: route.destination.toLowerCase(),
+        lastArrival: route.arrivalTime,
+        stops: 0
+      })
+    })
+
+    // 2. Busca em Largura (BFS) para encontrar conexões
+    while (queue.length > 0) {
+      const current = queue.shift()
+
+      // Se chegou no destino, salva o itinerário e não continua buscando a partir daqui
+      if (current.currentCity === destLower) {
+        itineraries.push(buildItinerary(current.segments))
+        continue
       }
-    })
 
-    // === 2. Busca com 1 Conexão ===
-    fromOrigin.forEach(leg1 => {
-      const midCity = leg1.destination.toLowerCase()
-      if (midCity === destLower || midCity === originLower) return
+      // Limite de conexões
+      if (current.stops >= MAX_STOPS) continue
 
-      const fromMid = routesByOrigin[midCity] || []
-      fromMid.forEach(leg2 => {
-        if (leg2.destination.toLowerCase() !== destLower) return
-        if (!isValidConnection(leg1.arrivalTime, leg2.departureTime)) return
+      const nextRoutes = routesByOrigin[current.currentCity] || []
+      
+      nextRoutes.forEach(nextLeg => {
+        const nextDest = nextLeg.destination.toLowerCase()
+        
+        // Evita ciclos (voltar para uma cidade já visitada ou para a origem)
+        if (nextDest === originLower) return
+        if (current.segments.some(s => s.origin.toLowerCase() === nextDest)) return
 
-        itineraries.push(buildItinerary([leg1, leg2]))
+        // Valida se o tempo de conexão é válido (entre 30 min e 12h)
+        if (isValidConnection(current.lastArrival, nextLeg.departureTime)) {
+          queue.push({
+            segments: [...current.segments, nextLeg],
+            currentCity: nextDest,
+            lastArrival: nextLeg.arrivalTime,
+            stops: current.stops + 1
+          })
+        }
       })
-    })
-
-    // === 3. Busca com 2 Conexões ===
-    fromOrigin.forEach(leg1 => {
-      const mid1 = leg1.destination.toLowerCase()
-      if (mid1 === destLower || mid1 === originLower) return
-
-      const fromMid1 = routesByOrigin[mid1] || []
-      fromMid1.forEach(leg2 => {
-        const mid2 = leg2.destination.toLowerCase()
-        if (mid2 === destLower) return // isso seria 1 conexão, já coberto
-        if (mid2 === originLower || mid2 === mid1) return
-        if (!isValidConnection(leg1.arrivalTime, leg2.departureTime)) return
-
-        const fromMid2 = routesByOrigin[mid2] || []
-        fromMid2.forEach(leg3 => {
-          if (leg3.destination.toLowerCase() !== destLower) return
-          if (!isValidConnection(leg2.arrivalTime, leg3.departureTime)) return
-
-          itineraries.push(buildItinerary([leg1, leg2, leg3]))
-        })
-      })
-    })
+    }
 
     // Ordenar: menor tempo total primeiro
     itineraries.sort((a, b) => {

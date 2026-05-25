@@ -71,6 +71,40 @@ const searchController = {
         error: 'Erro interno ao gerar o link de compra.'
       })
     }
+  },
+
+  getSitemap(req, res) {
+    try {
+      const routes = RouteModel.getAllRoutes()
+      const combinations = new Set()
+      
+      // Gera rotas apenas para destinos que realmente têm conexões disponíveis.
+      // Para o MVP de SEO, basta pegar origem e destino direto de cada segmento existente.
+      routes.forEach(route => {
+        const oSlug = route.origin.toLowerCase().replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+        const dSlug = route.destination.toLowerCase().replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+        combinations.add(`/rota/${oSlug}/${dSlug}`);
+      })
+
+      const dateStr = new Date().toISOString().split('T')[0]
+      let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`
+      
+      // Home page
+      xml += `  <url>\n    <loc>https://conectabus.com.br/</loc>\n    <lastmod>${dateStr}</lastmod>\n    <priority>1.0</priority>\n  </url>\n`
+
+      // Route pages
+      combinations.forEach(url => {
+        xml += `  <url>\n    <loc>https://conectabus.com.br${url}</loc>\n    <lastmod>${dateStr}</lastmod>\n    <priority>0.8</priority>\n  </url>\n`
+      })
+
+      xml += `</urlset>`
+
+      res.header('Content-Type', 'application/xml')
+      return res.send(xml)
+    } catch (err) {
+      console.error('Erro ao gerar sitemap:', err)
+      return res.status(500).send('Erro ao gerar sitemap')
+    }
   }
 }
 

@@ -123,17 +123,18 @@ export const getBuyLink = (companySlug, origin, destination, dateStr) => {
     formattedDate = `${yyyy}-${mm}-${dd}`
   }
 
-  // Se for buson: usa formato /porto-alegre-rs/florianopolis-sc
+  let url = info.baseUrl
   if (info.platform === 'buson') {
-    // A Buson utiliza o formato de URL amigável com barra, ex: /passagem-de-onibus/porto-alegre-rs/caxias-do-sul-rs
-    // Não utiliza parâmetros públicos de data na URL direta de SEO (assume o dia corrente e o usuário altera no calendário se quiser).
-    return `${info.baseUrl}/${originPart}/${destPart}`
+    url = `${info.baseUrl}/${originPart}/${destPart}`
+    if (process.env.BUSON_AFFILIATE_PREFIX) {
+      url = process.env.BUSON_AFFILIATE_PREFIX + encodeURIComponent(url)
+    }
+  } else if (info.platform === 'clickbus') {
+    url = `${info.baseUrl}/${originPart}/${destPart}?data=${formattedDate}`
+    if (process.env.CLICKBUS_AFFILIATE_PREFIX) {
+      url = process.env.CLICKBUS_AFFILIATE_PREFIX + encodeURIComponent(url)
+    }
   }
-  
-  // Se for clickbus: usa formato /porto-alegre-rs/florianopolis-sc?data=YYYY-MM-DD
-  if (info.platform === 'clickbus') {
-    return `${info.baseUrl}/${originPart}/${destPart}?data=${formattedDate}`
-  }
-  
-  return info.baseUrl
+
+  return url
 }
