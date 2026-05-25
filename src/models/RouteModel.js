@@ -11,8 +11,9 @@ const MIN_CONNECTION_MINUTES = 30
 const MAX_CONNECTION_MINUTES = 720 // Aumentado para 12 horas para permitir layovers noturnos
 
 function timeToMinutes(timeStr) {
-  const [hours, minutes] = timeStr.split(':').map(Number)
-  return hours * 60 + minutes
+  if (!timeStr) return 0;
+  const [h, m] = timeStr.split(':')
+  return parseInt(h) * 60 + parseInt(m)
 }
 
 function isOvernightRoute(route) {

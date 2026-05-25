@@ -3241,7 +3241,8 @@
     "company": "Penha",
     "departureTime": "21:30",
     "price": 180,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "21:30"
   },
   {
     "origin": "Campinas",
@@ -3249,7 +3250,8 @@
     "company": "Catarinense",
     "departureTime": "19:00",
     "price": 220,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "19:00"
   },
   {
     "origin": "Campinas",
@@ -3257,7 +3259,8 @@
     "company": "Catarinense",
     "departureTime": "20:15",
     "price": 210,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "20:15"
   },
   {
     "origin": "Campinas",
@@ -3265,7 +3268,8 @@
     "company": "Pluma",
     "departureTime": "18:00",
     "price": 280,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "18:00"
   },
   {
     "origin": "Campinas",
@@ -3273,7 +3277,8 @@
     "company": "Cometa",
     "departureTime": "08:00",
     "price": 150,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "08:00"
   },
   {
     "origin": "Campinas",
@@ -3281,7 +3286,8 @@
     "company": "Cometa",
     "departureTime": "22:00",
     "price": 190,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "22:00"
   },
   {
     "origin": "Campinas",
@@ -3289,7 +3295,8 @@
     "company": "Guanabara",
     "departureTime": "16:30",
     "price": 260,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "16:30"
   },
   {
     "origin": "Campinas",
@@ -3297,7 +3304,8 @@
     "company": "Cometa",
     "departureTime": "10:00",
     "price": 95,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "10:00"
   },
   {
     "origin": "Curitiba",
@@ -3305,7 +3313,8 @@
     "company": "Penha",
     "departureTime": "22:00",
     "price": 180,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "22:00"
   },
   {
     "origin": "Florianópolis",
@@ -3313,7 +3322,8 @@
     "company": "Catarinense",
     "departureTime": "18:30",
     "price": 220,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "18:30"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3321,7 +3331,8 @@
     "company": "Pluma",
     "departureTime": "14:00",
     "price": 290,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "14:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3329,7 +3340,8 @@
     "company": "Pluma",
     "departureTime": "11:00",
     "price": 350,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "11:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3337,7 +3349,8 @@
     "company": "Catarinense",
     "departureTime": "17:30",
     "price": 250,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "17:30"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3345,7 +3358,8 @@
     "company": "Catarinense",
     "departureTime": "18:00",
     "price": 240,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "18:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3353,7 +3367,8 @@
     "company": "UneSul",
     "departureTime": "19:00",
     "price": 310,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "19:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3361,7 +3376,8 @@
     "company": "Garcia",
     "departureTime": "22:30",
     "price": 160,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "22:30"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3369,7 +3385,8 @@
     "company": "Garcia",
     "departureTime": "23:00",
     "price": 150,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "23:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3377,7 +3394,8 @@
     "company": "Catarinense",
     "departureTime": "08:00",
     "price": 65,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "08:00"
   },
   {
     "origin": "São Paulo",
@@ -3385,7 +3403,8 @@
     "company": "Pluma",
     "departureTime": "16:00",
     "price": 290,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "16:00"
   },
   {
     "origin": "Curitiba",
@@ -3393,7 +3412,8 @@
     "company": "Catarinense",
     "departureTime": "21:00",
     "price": 190,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "21:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3401,7 +3421,8 @@
     "company": "Catarinense",
     "departureTime": "15:00",
     "price": 310,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "15:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3409,7 +3430,8 @@
     "company": "Santo Anjo",
     "departureTime": "09:00",
     "price": 140,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "09:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3417,7 +3439,8 @@
     "company": "Penha",
     "departureTime": "23:30",
     "price": 170,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "23:30"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3425,7 +3448,8 @@
     "company": "Brasil Sul",
     "departureTime": "19:45",
     "price": 210,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "19:45"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3433,7 +3457,8 @@
     "company": "Brasil Sul",
     "departureTime": "20:00",
     "price": 225,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "20:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3441,7 +3466,8 @@
     "company": "Catarinense",
     "departureTime": "21:15",
     "price": 195,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "21:15"
   },
   {
     "origin": "Porto Alegre",
@@ -3449,7 +3475,8 @@
     "company": "Santo Anjo",
     "departureTime": "22:00",
     "price": 140,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "22:00"
   },
   {
     "origin": "Curitiba",
@@ -3457,6 +3484,7 @@
     "company": "Catarinense",
     "departureTime": "10:30",
     "price": 75,
-    "buyUrl": "https://www.buson.com.br"
+    "buyUrl": "https://www.buson.com.br",
+    "arrivalTime": "10:30"
   }
 ]
