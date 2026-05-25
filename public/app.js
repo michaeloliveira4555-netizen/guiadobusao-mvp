@@ -567,8 +567,14 @@ if (modalConfirm) {
 
     if (currentStep < totalSegments) {
       const seg = selectedItinerary.segments[currentStep]
-      if (seg.buyUrl) {
-        window.open(seg.buyUrl, '_blank')
+      if (seg) {
+        const dateElement = document.getElementById('date-input')
+        const selectedDate = dateElement && dateElement.value ? dateElement.value : new Date().toISOString().split('T')[0]
+        const originEnc = encodeURIComponent(seg.origin)
+        const destEnc = encodeURIComponent(seg.destination)
+        const compEnc = encodeURIComponent(seg.company)
+        const buyUrl = `/redirect.html?origin=${originEnc}&dest=${destEnc}&date=${selectedDate}&company=${compEnc}`
+        window.open(buyUrl, '_blank')
       }
       currentStep++
       renderModalStep()
