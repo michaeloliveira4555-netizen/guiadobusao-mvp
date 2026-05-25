@@ -90,11 +90,11 @@ const searchController = {
       let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`
       
       // Home page
-      xml += `  <url>\n    <loc>https://cliqueonibus.com.br/</loc>\n    <lastmod>${dateStr}</lastmod>\n    <priority>1.0</priority>\n  </url>\n`
+      xml += `  <url>\n    <loc>https://guiadobusao.com.br/</loc>\n    <lastmod>${dateStr}</lastmod>\n    <priority>1.0</priority>\n  </url>\n`
 
       // Route pages
       combinations.forEach(url => {
-        xml += `  <url>\n    <loc>https://cliqueonibus.com.br${url}</loc>\n    <lastmod>${dateStr}</lastmod>\n    <priority>0.8</priority>\n  </url>\n`
+        xml += `  <url>\n    <loc>https://guiadobusao.com.br${url}</loc>\n    <lastmod>${dateStr}</lastmod>\n    <priority>0.8</priority>\n  </url>\n`
       })
 
       xml += `</urlset>`

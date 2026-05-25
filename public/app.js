@@ -1,5 +1,5 @@
 // =============================================
-// Clique Ônibus — Frontend Logic
+// Guia do Busão — Frontend Logic
 // Autocomplete, Busca, Renderização de Rotas
 // =============================================
 

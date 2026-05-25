@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: cliqueonibus
+    name: guiadobusao
     env: node
     plan: free
     buildCommand: npm install
