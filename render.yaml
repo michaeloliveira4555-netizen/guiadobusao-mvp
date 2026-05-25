@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: conectabus
+    name: cliqueonibus
     env: node
     plan: free
     buildCommand: npm install

@@ -16,7 +16,7 @@ const routesToScrape = [
 const slugify = (text) => text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').trim();
 
 async function runScraper() {
-  console.log('Iniciando scraper do ConectaBus...');
+  console.log('Iniciando scraper do Clique Ônibus...');
   let existingRoutes = [];
   try {
     existingRoutes = JSON.parse(fs.readFileSync(routesDataPath, 'utf-8'));

@@ -1,5 +1,5 @@
 // =============================================
-// ConectaBus — Frontend Logic
+// Clique Ônibus — Frontend Logic
 // Autocomplete, Busca, Renderização de Rotas
 // =============================================
 
