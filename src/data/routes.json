@@ -3008,7 +3008,7 @@
     "destination": "São Paulo",
     "company": "Gontijo",
     "departureTime": "14:00",
-    "arrivalTime": "14:00",
+    "arrivalTime": "04:00",
     "price": 700
   },
   {
@@ -3088,7 +3088,7 @@
     "destination": "Salvador",
     "company": "Expresso Guanabara",
     "departureTime": "15:00",
-    "arrivalTime": "15:00",
+    "arrivalTime": "10:00",
     "price": 350
   },
   {
@@ -3128,7 +3128,7 @@
     "destination": "Recife",
     "company": "Gontijo",
     "departureTime": "15:00",
-    "arrivalTime": "15:00",
+    "arrivalTime": "05:00",
     "price": 700
   },
   {
@@ -3208,7 +3208,7 @@
     "destination": "Fortaleza",
     "company": "Expresso Guanabara",
     "departureTime": "16:00",
-    "arrivalTime": "16:00",
+    "arrivalTime": "11:00",
     "price": 350
   },
   {
@@ -3242,7 +3242,7 @@
     "departureTime": "21:30",
     "price": 180,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "21:30"
+    "arrivalTime": "07:30"
   },
   {
     "origin": "Campinas",
@@ -3251,7 +3251,7 @@
     "departureTime": "19:00",
     "price": 220,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "19:00"
+    "arrivalTime": "07:00"
   },
   {
     "origin": "Campinas",
@@ -3260,7 +3260,7 @@
     "departureTime": "20:15",
     "price": 210,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "20:15"
+    "arrivalTime": "07:15"
   },
   {
     "origin": "Campinas",
@@ -3269,7 +3269,7 @@
     "departureTime": "18:00",
     "price": 280,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "18:00"
+    "arrivalTime": "09:00"
   },
   {
     "origin": "Campinas",
@@ -3278,7 +3278,7 @@
     "departureTime": "08:00",
     "price": 150,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "08:00"
+    "arrivalTime": "16:00"
   },
   {
     "origin": "Campinas",
@@ -3287,7 +3287,7 @@
     "departureTime": "22:00",
     "price": 190,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "22:00"
+    "arrivalTime": "08:00"
   },
   {
     "origin": "Campinas",
@@ -3296,7 +3296,7 @@
     "departureTime": "16:30",
     "price": 260,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "16:30"
+    "arrivalTime": "06:30"
   },
   {
     "origin": "Campinas",
@@ -3305,7 +3305,7 @@
     "departureTime": "10:00",
     "price": 95,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "10:00"
+    "arrivalTime": "15:00"
   },
   {
     "origin": "Curitiba",
@@ -3314,7 +3314,7 @@
     "departureTime": "22:00",
     "price": 180,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "22:00"
+    "arrivalTime": "08:00"
   },
   {
     "origin": "Florianópolis",
@@ -3323,7 +3323,7 @@
     "departureTime": "18:30",
     "price": 220,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "18:30"
+    "arrivalTime": "06:30"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3332,7 +3332,7 @@
     "departureTime": "14:00",
     "price": 290,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "14:00"
+    "arrivalTime": "06:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3341,7 +3341,7 @@
     "departureTime": "11:00",
     "price": 350,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "11:00"
+    "arrivalTime": "06:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3350,7 +3350,7 @@
     "departureTime": "17:30",
     "price": 250,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "17:30"
+    "arrivalTime": "06:30"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3359,7 +3359,7 @@
     "departureTime": "18:00",
     "price": 240,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "18:00"
+    "arrivalTime": "07:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3368,7 +3368,7 @@
     "departureTime": "19:00",
     "price": 310,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "19:00"
+    "arrivalTime": "12:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3377,7 +3377,7 @@
     "departureTime": "22:30",
     "price": 160,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "22:30"
+    "arrivalTime": "06:30"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3386,7 +3386,7 @@
     "departureTime": "23:00",
     "price": 150,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "23:00"
+    "arrivalTime": "07:00"
   },
   {
     "origin": "Foz do Iguaçu",
@@ -3395,7 +3395,7 @@
     "departureTime": "08:00",
     "price": 65,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "08:00"
+    "arrivalTime": "11:00"
   },
   {
     "origin": "São Paulo",
@@ -3404,7 +3404,7 @@
     "departureTime": "16:00",
     "price": 290,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "16:00"
+    "arrivalTime": "08:00"
   },
   {
     "origin": "Curitiba",
@@ -3413,7 +3413,7 @@
     "departureTime": "21:00",
     "price": 190,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "21:00"
+    "arrivalTime": "07:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3422,7 +3422,7 @@
     "departureTime": "15:00",
     "price": 310,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "15:00"
+    "arrivalTime": "08:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3431,7 +3431,7 @@
     "departureTime": "09:00",
     "price": 140,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "09:00"
+    "arrivalTime": "16:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3440,7 +3440,7 @@
     "departureTime": "23:30",
     "price": 170,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "23:30"
+    "arrivalTime": "08:30"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3449,7 +3449,7 @@
     "departureTime": "19:45",
     "price": 210,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "19:45"
+    "arrivalTime": "06:45"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3458,7 +3458,7 @@
     "departureTime": "20:00",
     "price": 225,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "20:00"
+    "arrivalTime": "08:00"
   },
   {
     "origin": "Balneário Camboriú",
@@ -3467,7 +3467,7 @@
     "departureTime": "21:15",
     "price": 195,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "21:15"
+    "arrivalTime": "07:15"
   },
   {
     "origin": "Porto Alegre",
@@ -3476,7 +3476,7 @@
     "departureTime": "22:00",
     "price": 140,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "22:00"
+    "arrivalTime": "05:00"
   },
   {
     "origin": "Curitiba",
@@ -3485,6 +3485,6 @@
     "departureTime": "10:30",
     "price": 75,
     "buyUrl": "https://www.buson.com.br",
-    "arrivalTime": "10:30"
+    "arrivalTime": "14:30"
   }
 ]
