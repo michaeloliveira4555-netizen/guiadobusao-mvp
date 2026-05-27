@@ -174,7 +174,14 @@ class RouteModel {
       return a.totalTimeMinutes - b.totalTimeMinutes
     })
 
-    // Limitar a 15 melhores resultados para não sobrecarregar
+    if (itineraries.length > 0) {
+      // Filtrar rotas com excesso de conexões para priorizar viagens diretas
+      const minStops = itineraries[0].stops;
+      // Mantém apenas itinerários que tenham no máximo 1 parada a mais que a melhor opção
+      const filtered = itineraries.filter(i => i.stops <= minStops + 1);
+      return filtered.slice(0, 15);
+    }
+
     return itineraries.slice(0, 15)
   }
 }
