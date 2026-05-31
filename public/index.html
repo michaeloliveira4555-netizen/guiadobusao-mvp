@@ -98,31 +98,46 @@
 
     <!-- Results Section -->
     <section class="results-section" id="results-section">
-      <div class="results-header" id="results-header" style="display:none">
-        <h3 class="results-title" id="results-title"></h3>
-        <div class="results-sort" id="results-sort">
-          <span>Ordenar por:</span>
-          <button class="sort-btn active" data-sort="fastest" id="sort-fastest">Mais Rápido</button>
-          <button class="sort-btn" data-sort="cheapest" id="sort-cheapest">Mais Barato</button>
-          <button class="sort-btn" data-sort="less-stops" id="sort-less-stops">Menos Paradas</button>
+      <div class="results-main">
+        <div class="results-header" id="results-header" style="display:none">
+          <h3 class="results-title" id="results-title"></h3>
+          <div class="results-sort" id="results-sort">
+            <span>Ordenar por:</span>
+            <button class="sort-btn active" data-sort="fastest" id="sort-fastest">Mais Rápido</button>
+            <button class="sort-btn" data-sort="cheapest" id="sort-cheapest">Mais Barato</button>
+            <button class="sort-btn" data-sort="less-stops" id="sort-less-stops">Menos Paradas</button>
+          </div>
         </div>
+
+        <!-- Loading Skeleton -->
+        <div class="loading-container" id="loading-container" style="display:none">
+          <div class="loader-pulse"></div>
+          <p class="loading-text">Buscando as melhores rotas...</p>
+        </div>
+
+        <!-- No Results -->
+        <div class="no-results" id="no-results" style="display:none">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg>
+          <p>Nenhuma rota encontrada para esse trajeto.</p>
+          <span>Tente ajustar a origem ou o destino.</span>
+        </div>
+
+        <!-- Itinerary Cards -->
+        <div class="itinerary-list" id="itinerary-list"></div>
       </div>
 
-      <!-- Loading Skeleton -->
-      <div class="loading-container" id="loading-container" style="display:none">
-        <div class="loader-pulse"></div>
-        <p class="loading-text">Buscando as melhores rotas...</p>
-      </div>
-
-      <!-- No Results -->
-      <div class="no-results" id="no-results" style="display:none">
-        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg>
-        <p>Nenhuma rota encontrada para esse trajeto.</p>
-        <span>Tente ajustar a origem ou o destino.</span>
-      </div>
-
-      <!-- Itinerary Cards -->
-      <div class="itinerary-list" id="itinerary-list"></div>
+      <!-- Sidebar Ads (Desktop Only) -->
+      <aside class="ad-sidebar" id="ad-sidebar">
+        <!-- Placeholders para Hoteis.com, Rentcars e CVC -->
+        <div class="ad-placeholder">
+          <div class="ad-pulse"></div>
+          <span>Ofertas de Hospedagem (Hoteis.com)</span>
+        </div>
+        <div class="ad-placeholder">
+          <div class="ad-pulse"></div>
+          <span>Aluguel de Carros (Rentcars)</span>
+        </div>
+      </aside>
     </section>
   </main>
 

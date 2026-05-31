@@ -334,9 +334,17 @@ body {
 
 /* --- Results Section --- */
 .results-section {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 24px 80px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
+  align-items: start;
+}
+
+.results-main {
+  min-width: 0;
 }
 
 .results-header {
@@ -714,7 +722,87 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
+/* --- Sidebar & Ads --- */
+.ad-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 100px;
+}
+
+.ad-placeholder {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: var(--border-glass);
+  border-radius: var(--radius-lg);
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 500;
+  min-height: 250px;
+}
+
+.ad-pulse {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  animation: adPulse 2s infinite;
+}
+
+@keyframes adPulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1); }
+  70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+}
+
+.ad-native-feed {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.ad-native-feed::before {
+  content: 'Patrocinado';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--accent-amber);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-bottom-left-radius: var(--radius-sm);
+}
+
 /* --- Responsive --- */
+@media (max-width: 992px) {
+  .results-section {
+    grid-template-columns: 1fr;
+  }
+  .ad-sidebar {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 1.8rem;

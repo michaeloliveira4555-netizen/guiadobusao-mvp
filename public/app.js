@@ -236,6 +236,26 @@ function renderItineraries(itineraries) {
     card.style.animationDelay = `${index * 80}ms`
     card.innerHTML = renderCard(itin, index)
     itineraryList.appendChild(card)
+
+    // Injeção do Native Ad Feed (visível apenas no Mobile via CSS ou renderizado condicionalmente)
+    // Vamos injetar o ad nativo de Hospedagem logo após a primeira rota, e de Aluguel de Carro após a terceira
+    if (index === 0) {
+      const adCard = document.createElement('div')
+      adCard.className = 'ad-native-feed'
+      adCard.innerHTML = `
+        <strong>Vai precisar de hotel?</strong><br>
+        Encontre as melhores ofertas no seu destino com a Hoteis.com
+      `
+      itineraryList.appendChild(adCard)
+    } else if (index === 2) {
+      const adCard = document.createElement('div')
+      adCard.className = 'ad-native-feed'
+      adCard.innerHTML = `
+        <strong>Explore a cidade!</strong><br>
+        Alugue um carro com desconto exclusivo pela Rentcars
+      `
+      itineraryList.appendChild(adCard)
+    }
   })
 }
 
