@@ -237,8 +237,8 @@ function renderItineraries(itineraries) {
     card.innerHTML = renderCard(itin, index)
     itineraryList.appendChild(card)
 
-    // Injeção do Native Ad Feed (visível apenas no Mobile via CSS ou renderizado condicionalmente)
-    // Vamos injetar o ad nativo de Hospedagem logo após a primeira rota, e de Aluguel de Carro após a terceira
+    // Injeção do Native Ad Feed (COMENTADO ATÉ TER AFILIADOS REAIS)
+    /*
     if (index === 0) {
       const adCard = document.createElement('div')
       adCard.className = 'ad-native-feed'
@@ -256,6 +256,7 @@ function renderItineraries(itineraries) {
       `
       itineraryList.appendChild(adCard)
     }
+    */
   })
 }
 
